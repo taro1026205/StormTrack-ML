@@ -1,4 +1,4 @@
-# Python-TITAN: Machine Learning & Algorithmic Storm Tracking Pipeline
+# A Machine Learning & Algorithmic Storm Tracking Framework
 
 This repository contains the implementation of a **hybrid data science framework** for **storm tracking and atmospheric convection analysis using legacy radar data**.  
 The proposed architecture integrates an **XGBoost Machine Learning pipeline** for spatial data reconstruction with **state-of-the-art Lagrangian tracking algorithms (TITAN and TOBAC)** to effectively capture storm morphologies, kinematics, and lifecycles over Ho Chi Minh City.
