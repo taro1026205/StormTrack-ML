@@ -1,0 +1,32 @@
+# Ignore macOS system files
+.DS_Store
+**/.DS_Store
+
+# Ignore Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# ---------------------------------------------------
+# CRITICAL: IGNORE PRIVATE & HEAVY DATA FOLDERS
+# ---------------------------------------------------
+# Do not upload the paid raw NetCDF files from SRHMC
+file/data/raw/
+
+# Ignore the heavy 3D generated grid files (users can recreate them using grid_pipeline.py)
+file/data/grid/
+
+# Ignore thousands of downloaded PNGs (users can download them using download_png.py)
+file/data/png/
+
+# Ignore big events
+file/data/big_event/
+
+# Ignore heavy ML models if they exceed GitHub's 100MB file limit
+# (Uncomment the line below if you don't want to upload the trained model)
+# file/models/xgboost_residual.json
+
+# Ignore generated visualization outputs (optional, except for those explicitly added)
+*.mp4
+*.gif
